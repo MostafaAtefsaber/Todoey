@@ -7,9 +7,9 @@
 //
 
 import Foundation
-class Item {
+class Item : Codable{
  
-    // probertis
+    // properties
     
     var titel : String = ""
     var done  : Bool   = false
